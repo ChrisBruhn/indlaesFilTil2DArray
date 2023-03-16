@@ -7,12 +7,9 @@ void setup() {
   size(800,100);
   fill(0);
   textSize(18);
-
   
   file.lavFil();
   file.readFile();
-
-  
 }
 void draw() {
   background(220);
@@ -24,7 +21,7 @@ void draw() {
 
 // VIEW
 
-// udskriv alle værdier i en 2D array med et nested loop
+// udskriv alle værdier 
 void printBogstavArray(Bogstav[] liste) {
   // for hver række
   for (int i =0; i<liste.length; i++) {
